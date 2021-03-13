@@ -1,15 +1,20 @@
 :root {
-	--main-font: “Roboto”, sans-serif;
+  --main-font: “Roboto”, sans-serif;
+  --button-border: 3px solid #000000;
+  --button-text-size: 4em;
 }
 
-body, div, p {
-	margin: 0;
-	padding: 0;
+body,
+div,
+p {
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
-	:root {
-		--timer-height: 100%;
-		--timer-width: 100%;
-}
+  :root {
+    --timer-height: 100%;
+    --timer-width: 100%;
+    --button-text-size: 4em;
+  }
 }
